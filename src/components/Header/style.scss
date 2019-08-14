@@ -1,0 +1,21 @@
+.border-white-1 {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.nav-link{
+    color: white !important;
+    text-decoration: none;
+    background-color: transparent !important;
+    transition: all 0.2s ease-out;
+    &:hover {
+        font-size: 20px !important;
+        transition: all 0.2s ease-in;
+    }
+}
+
+.rotate {
+    &:hover {
+        transform: rotate(180deg);
+    }
+}

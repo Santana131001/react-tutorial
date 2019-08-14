@@ -1,0 +1,45 @@
+.bg-purple{
+    background: #BC20F5;
+}
+
+.fa-heart{
+    color: red;
+    transition: color 0.5s ease-out;
+    &:hover{
+        transition: color 0.5s ease-in;
+        color: white;
+    }
+}
+
+.fa-instagram{
+    color: white;
+}
+
+.fa-line{
+    color: white;
+}
+
+.fa-whatsapp{
+    color: white;
+}
+
+.fa-hospital{
+    color: white;
+}
+.navbar-dark{
+    .navbar-toggler {
+        color: white;
+        border-color: white;
+    }
+}
+.cursor-pointer{
+    cursor: pointer !important;
+}
+
+.wrapper {
+    height: 100% !important;
+    min-height:100% !important;
+    padding-bottom:-30px !important;
+    position: relative !important;
+}
+
