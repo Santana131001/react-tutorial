@@ -1,0 +1,67 @@
+.rotate {
+    transition: transform .4s ease-in-out;
+}
+
+.accordion {
+    display: inline-block;
+    text-align: left;
+    margin: 1%;
+    width: 70%;
+}
+
+.accordion-content {
+    transition: max-height 1s;
+    overflow: hidden;
+    max-height: 0;
+}
+
+.show {
+    .accordion-content {
+        max-height: 300px;
+    }
+
+    .rotate {
+        transform: rotate(90deg);
+    }
+}
+
+a {
+    .text-purple {
+        color: #BC20F5 !important;
+    }
+}
+
+.bg-instagram {
+    background-image: linear-gradient(to right, #BC20F5, yellow);
+}
+
+.bg-line {
+    background: #00C300
+}
+
+.bg-whatsapp {
+    background: #25D366
+}
+
+.bg-born {
+    background: #FE251B
+}
+
+.align-center {
+    position: absolute;
+    top: 5px;
+}
+
+.align-center-long-text {
+    line-height: 32px !important;
+}
+
+.text-18px {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.picture{
+    border-radius: 50%;
+}
