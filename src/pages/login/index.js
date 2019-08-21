@@ -17,7 +17,11 @@ class Login extends Controller {
                                     <div className="container">
                                         <div className="row">
                                             <div className="col-12 login-page-input-div-username mb-4">
-                                                <Input placeholder="Email" type="text" value={this.state.username} className="login-page-input" onChange={(e) => this.onChangeInput('username', e)} />
+                                                <Input placeholder="Email" 
+                                                type="text" 
+                                                className="login-page-input"
+                                                value={this.state.username} 
+                                                onChange={(event) => this.onChangeInput('username', event)} />
                                             </div>
                                         </div>
                                         <div className="row">

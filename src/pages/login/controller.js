@@ -23,8 +23,10 @@ class LoginController extends React.Component {
             })
         }
     }
-    onChangeInput = (state, e) => {
-        this.setState({ [state]: e.target.value })
+    onChangeInput = (state, event) => {
+        this.setState({ [state]: event.target.value })
+        console.log(event.target.value)
+        console.log("Ini State Username : ", this.state.username)
     }
 }
 

@@ -12,7 +12,7 @@ class Page extends Controller {
     render() {
         return (
             <Switch>
-                <Route exact path='/dashboard' />
+                <Route exact path='/home' />
                 <Route exact path='/about' component={About} />
             </Switch>
         )
