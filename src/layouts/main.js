@@ -1,21 +1,22 @@
-import Controller from './controller'
 import './style.scss'
 import React from 'react'
-import {BrowserRouter as Router} from 'react-router-dom'
-import Route from 'react-router-dom/Route'
-import About from '../pages/about';
+import Controller from './controller'
+import About from './../pages/about'
+import { Switch, Route } from 'react-router-dom';
+import Dashboard from '../pages/dashboard';
 
-class App extends Controller {
+class Page extends Controller {
     constructor(props) {
         super(props)
     }
     render() {
         return (
-            <Router>
-                <Route path="/about" exact strict component={About} />
-            </Router>
+            <Switch>
+                <Route exact path='/home' />
+                <Route exact path='/about' component={About} />
+            </Switch>
         )
     }
 }
 
-export default App
+export default Page
