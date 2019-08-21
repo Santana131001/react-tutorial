@@ -1,5 +1,5 @@
 form {
-    border:3px solid #ff11ff;
+    border:3px;
     width: 350px;
 }
 
@@ -11,7 +11,10 @@ input[type=text], input[type=password]{
     border: 1px solid #cccccc;
     box-sizing: border-box;
 }
-
+.align-center {
+    position: absolute;
+    align-content: center;
+}
 button{
     background-color: #4caf50;
     color:white;
@@ -45,3 +48,15 @@ img.avatar{
 .container{
     padding: 16px;
 }
+
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
+  
