@@ -1,0 +1,51 @@
+.background-login {
+    height: 625px;
+    background-image: url(./../../static/image/bg-login.jpg);
+}
+
+.login-page-card {
+    margin-top:50px;
+    margin-right:50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #2EAAE0, #5EBEE7)
+}
+
+.login-title {
+    padding: 30px;
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    cursor: default;
+}
+
+.login-page-username {
+    margin-top: 26px;
+}
+
+.login-page-password {
+    margin-top: 28px;
+}
+
+.login-page-input {
+    padding: 24px 32px;
+    background: #EFF0ED;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.login-padding-card {
+    padding-bottom: 7.5rem !important;
+}
+.login-padding-card-error {
+    padding-bottom: 5.8rem !important;
+}
+
+.login-padding-button{
+    padding-left: 7.5rem !important;
+    padding-right: 7.5rem !important;
+}
